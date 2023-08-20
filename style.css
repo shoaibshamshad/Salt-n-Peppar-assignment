@@ -1,0 +1,550 @@
+
+@font-face{
+    font-family:'futurak';
+     src: url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('truetype'),
+     url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('ttf');
+     font-weight: normal;
+     font-style: normal;
+     font-variant-ligatures: no-common-ligatures;
+   }
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header{
+    height: 93px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-self: center;
+    /* margin:0px 25px; */
+    align-items: center;
+    /* padding: 0px 15px; */
+}
+.header ul{
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    
+}
+.logo-heading{
+    font-family:'futurak';
+
+}
+.salt-logo img{
+    width: 165px;
+    height: 75px;
+    align-items: center;
+}
+.header .online{
+    width: 144px;
+    height: 52px;
+    background-color: red;
+    border: 1px;
+    border-radius: 50px;
+    text-align: center;
+    border-color: none;
+    padding-top: 16px;
+} 
+.get{
+    
+    width: 142px;
+    height: 48px;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-align: center;
+    border-color: none;
+    margin-right: 5px;
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+    /* padding-top: 10px; */
+}
+
+.header img{
+    display: flex;
+    justify-content: center;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.header ul li{
+    padding:0px  20px;
+    padding-top: 13px;
+}
+.bike-image img{
+    width: 100%;
+    height: 700px;
+}
+.section-three{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5px;
+    height: 540px;
+}
+
+.welcome-heading p{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+.welcome-heading h2{
+    color: white;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 12px;
+    font-size: 40px;
+}
+.cards img{
+    width: 250px;
+    height: 140px;
+    background-color: white;
+}
+.cards-button button{
+    width: 174px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+
+}
+.section-three .cards{
+    display: flex;
+    justify-content: center;
+}
+.center-card{
+    margin: 0px 30px;
+}
+.center-button{
+    margin: 0px 100px;
+}
+.button-div{
+    margin-top: 20px;
+}
+.section-four{
+    background-color: rgb(13, 13, 13);
+    width: 100%;
+}
+.frenchise-div .frenchise-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.frenchise-header{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.frenchise-header h2{
+    font-size: 48px;
+}
+.frenchise-header p{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    padding-top: 10px;
+}
+.frenchise-side{
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.frenchise-side .map{
+    width: 12.48px;
+    height: 16px;
+    background-color: white;
+    margin-top: 20px;
+}
+.frenchise-side p{
+    color: red;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+ .frenchise-side .phone{
+    width: 16.4px;
+    height: 16px;
+    background-color: white;
+    margin-top: 10px;
+} 
+.side-button img{
+    /* width: 14px;
+    height: 16px; */
+
+}
+.side-button button{
+    width: 174px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.side-button .arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.frenchise-pic img{
+    width: 540px;
+    height: 295px;
+}
+.second-image{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.express-header{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.express-imagecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px;
+    margin-top: 30px;
+}
+.express-imagecard .card-imag{
+    width: 350px;
+    height: 250px;
+
+}
+.express-imagecard p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: red;
+    padding: 15px;
+}
+.express-imagecard h3{
+    color: white;
+    font-family: sans-serif;
+    
+}
+.express-imagecard span{
+    font-weight: lighter;
+}
+.icon-section .map{
+    width: 12.48px;
+    height: 16px;
+    background-color: white;
+    margin-top: 20px;
+    color: white;
+}
+.icon-section{
+    
+    color: white;
+}
+
+.icon-section .phone{
+    width: 16.4px;
+    height: 16px;
+    background-color: white;
+    margin-top: 10px;
+} 
+.card-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    
+    
+}
+.section-five{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.village-header{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+.village-text{
+    color: white;
+    margin-left: 40px;
+    padding: 15px 0px;
+}
+.village-card.village-image{
+    width: 700;
+    height: 400px;
+}
+.village-text p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: red;
+    padding-bottom: 15px;
+
+}
+.village-text h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 32px;
+    
+}
+.village-text span{
+    font-weight: lighter;
+}
+.village-text .map{
+    width: 12.48px;
+    height: 16px;
+    background-color: white;
+    margin-top: 20px;
+    color: white;
+}
+.village-text .phone{
+    width: 16.4px;
+    height: 16px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+.village-text .side-button button{
+    width: 174px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color:green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.village-text .side-button .arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.village-card{
+    display: flex;
+    align-items: center;
+    margin-top:40px ;
+}
+.section-six{
+    margin: 100px 0px ;
+    background-color: rgb(13, 13, 13) ;
+
+}
+.section-seven{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+}
+.section-seven-header{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+.section-seven-header span{
+    font-size: 24px;
+}
+.location img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(157, 145, 145);
+    color: red;
+    padding: 5px;
+    margin: 20px 0px;
+}
+.sadhoke-card{
+    background-color: white;
+    width: 350px;
+    height: 220px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+
+}
+.sadhoke-card p{
+    font-size: 11px;
+    color: red;
+    font-family: sans-serif;
+    margin-bottom: 7px;
+}
+.sadhoke-card span{
+    font-size: 24px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.sadhoke-card h4{
+    font-size: 21px;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+.seven-cardsection {
+    display: flex;
+    justify-content: space-around;
+    justify-content:center ;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.section-eight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-eight-header{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom:40px ;
+}
+.food-pic img{
+    width: 376px;
+    height: 376px;
+    padding:  8px;
+}
+.food-imag-section{
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.para-one p{
+    color: rgb(179, 181, 182);
+    text-align: center;
+    text-align: left;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.para-one .salt-image img{
+    width: 140px;
+    height: 64px;
+    margin-bottom: 15px;
+}
+.para-one{
+    width: 386px;
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.para-two{
+    color:rgb(179, 181, 182) ;
+    width: 206px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+
+}
+.para-two .links a{
+    color:rgb(179, 181, 182);
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.para-two .links div{
+    padding: 10px 0px;
+}
+.para-three{
+    color:rgb(179, 181, 182) ;
+    width: 206px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.para-three .numbers a{
+    color:rgb(179, 181, 182);
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+     }
+     .para-three .numbers div{
+    padding: 10px 0px;
+     }
+     .para-three .numbers p{
+        width: 80%;
+     }
+     .para-three h3{
+        margin-bottom: 10px;
+     }
+     .para-four{
+        color:rgb(179, 181, 182); 
+        width: 206px;
+        height: 300px;
+     }
+     .para-four h3{
+        margin-bottom: 10px;
+     }
+     .para-four-icons div{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 5px;
+     }
+     .para-four-icons{
+        display: flex;
+     }
+     .para-four-imag div{
+        margin: 8px 0px;
+     }
+     .section-nine{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgb(13, 13, 13) ;
+     }
+     .sub-container {
+        display: flex;
+     }
